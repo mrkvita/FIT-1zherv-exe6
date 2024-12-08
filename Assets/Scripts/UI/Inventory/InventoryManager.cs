@@ -394,7 +394,7 @@ public class InventoryManager : MonoBehaviour
             mItemDetailDescription.text = "Please select an item first";
             if (mItemCreateButton != null)
             {
-                mItemCreateButton.SetEnabled(true);
+                mItemCreateButton.SetEnabled(false);
             }
         }
         else
